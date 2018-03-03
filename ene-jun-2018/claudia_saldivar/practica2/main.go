@@ -5,11 +5,10 @@ import (
     "net/http"
 )
 
-var texto string
 func index(w http.ResponseWriter,r *http.Request){
-  fmt.Scanf("%v", &texto)
+  texto:="SERVIDOR"
   cant :=len([]rune(texto))
-  fmt.Fprintln(w,"texto")
+  fmt.Fprintln(w,"texto:",texto)
   fmt.Fprint(w,"caracteres: ",cant)
 }
 func main(){
