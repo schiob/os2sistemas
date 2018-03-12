@@ -40,6 +40,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifboredparrot
 
 	if pp == "congaparrot" {
@@ -59,6 +60,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifcongaparrot
 
 	if pp == "mega" {
@@ -78,6 +80,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifmegaparrot
 
 	if pp == "middleparrot" {
@@ -97,6 +100,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifmiddleparrot
 
 	if pp == "parrot" {
@@ -116,6 +120,7 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifparrot
 
 	if pp == "rightparrot" {
@@ -135,5 +140,6 @@ func main() {
 				log.Fatal(err)
 			}
 		}
+		fmt.Println("El archivo con los datos del gif ha sido creado")
 	} //endifrightparrot
 }
