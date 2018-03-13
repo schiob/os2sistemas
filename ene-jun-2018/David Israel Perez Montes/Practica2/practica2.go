@@ -36,9 +36,9 @@ func PostHandler(w http.ResponseWriter, r *http.Request) {
 				http.StatusInternalServerError)
 		}
 		results = append(results, string(body))
-
+		//Fprint sirve para signar lo que se va a escribir al writer
 		fmt.Fprint(w, "POST done")
-		fmt.Println("Numero de caracteres: ", len(body))
+		fmt.Fprintln(w, "Numero de caracteres: ", len(body))
 	} else {
 		http.Error(w, "Invalid request method", http.StatusMethodNotAllowed)
 	}
@@ -49,6 +49,7 @@ func init() {
 	flag.Parse()
 }
 
+//go func() para la concurrencia, tambien se puede usar .net en lugar de http
 func main() {
 	results = append(results, time.Now().Format(time.RFC3339))
 
