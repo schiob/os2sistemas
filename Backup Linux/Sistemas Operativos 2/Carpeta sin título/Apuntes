@@ -1,0 +1,40 @@
+#Organizacion de Middlewares
+    -wrappers
+    -Interceptors
+##Wrapper
+Adaptadores que resuelven el problema de interfaces compatibles
+Usar un broker reduce el nomero de wrappers
+capa que le ponemos encima a todo para quese pueda comunicar
+
+##Interceptors
+Rompen el flujo de control y deja que otras app corran
+agregan una funcionalidad en el proceso
+
+#Arquitectura del sistema
+Dependiendo de como se acomodan los componentes
+
+    *Centralizada
+    *Descentralizada
+    *Hibrida
+
+##Centralizada
+Cliente-Servidor
+*Servidor
+*Cliente
+
+Comunicacion:
+*UDP
+*TCP
+*etc.
+
+##Peer-to-peer (mas descentralizada)
+*Structured
+*Unstructured
+
+
+###Tarea
+como sacar los datos del post y en response mostrar los caracteres
+si se corre en una pc poder cambiar puertos
+puedes hacerlo con get o post
+
+

@@ -1,0 +1,11 @@
+#COMUICACION
+
+* Stream oriented: es mas unidireccional, como ver un video de youtube donde pides un segundo del video cada rato.
+
+# MODELO CLIENTE SERVIDOR
+*   SOCKET
+*   WEB SOCKET
+*   RPC (REMOTE PROCEDURE CALLS)
+*   WEB SERVICE REST/SOAP
+
+#
