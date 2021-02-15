@@ -1,0 +1,82 @@
+#Body {
+background-color: Yellow;
+}
+
+/* div Logo y Titulo del juego */
+#Header {
+border: 5px solid;
+padding: 30px;
+}
+
+/* div Logo */
+#Logo {
+width:50%;
+float: left;	
+}
+
+/* img Imagen */
+#img {
+width:75%;
+height: 50%;
+}
+
+/* h1 Titulo */
+#Titulo {
+text-align: center;
+font-size: 10vh;
+font-family: cambria;
+}
+
+/* div Pregunta */
+#Pregunta {
+border: 5px solid Black;
+margin: 20px;
+padding: 50px;
+text-align: center;
+font-size: 10vh;
+font-family: Malandra GD;
+}
+
+/* div Botones con Respuestas */
+#btnsRespuesta {
+float: center;
+width:50%;
+}
+
+/* Botones */
+.btn {
+width: 220px;
+font-size: 24px;
+display: block;
+background-color: red;
+color: white;
+padding: 15px 25px;
+text-align: center;
+cursor: pointer;
+border-radius: 8px;
+float: middle;
+}
+
+.btn:hover {
+background-color: blue;
+}
+
+/* div boton next */
+#respuesta {
+font-size: 20px;
+text-align: center;
+color: White;
+font-size: 8vh;
+font-family: cambria;
+float: left;
+}
+#resultado {
+font-size: 20px;
+text-align: center;
+color: White;
+font-size: 8vh;
+font-family: cambria;
+visibility: hidden;
+float: left;
+}
+
